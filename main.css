@@ -1,0 +1,35 @@
+#buttons
+{
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid #000;
+}
+
+#buttons button{
+    padding: 1rem;
+    border: 0px;
+    background-color: gray;
+    color: white;
+    margin: .2rem;
+}
+
+.row
+{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+}
+
+.bg-blue{
+    background-color:blue !important;
+    color: #fff;
+}
+.bg-red{
+    background-color: brown !important;
+}
+
+.bg-green{
+    background-color: darkgreen !important;
+}
